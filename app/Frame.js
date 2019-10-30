@@ -29,7 +29,7 @@ const Frame = () => {
             <Switch>
               <Suspense fallback={<LoadingMessage />}>
                 <Route exact path="/" component={Home} />
-                <Route exact path="contact" component={Contact} />
+                <Route exact path="/contact" component={Contact} />
               </Suspense>
               <Route render={() => <h2>404 Page Not Found</h2>} />
             </Switch>
